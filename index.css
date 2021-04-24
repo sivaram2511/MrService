@@ -567,6 +567,125 @@ img {
   }
 }
 
+.footer {
+  background-color: #0c2849;
+}
+
+.footer .foot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 8% 5%;
+}
+
+.footer .foot-container .firstarea {
+  -webkit-box-flex: 0.30;
+      -ms-flex: 0.30;
+          flex: 0.30;
+}
+
+.footer .foot-container .firstarea h1 {
+  color: #ff612a;
+  margin-bottom: 1em;
+  font-family: cursive;
+}
+
+.footer .foot-container .firstarea p {
+  color: #969fa6;
+  margin-bottom: 2em;
+}
+
+.footer .foot-container .firstarea .social-icn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+.footer .foot-container .firstarea .social-icn img {
+  height: 20px;
+  width: 20px;
+  -webkit-filter: invert(58%) sepia(92%) saturate(778%) hue-rotate(162deg) brightness(95%) contrast(90%);
+          filter: invert(58%) sepia(92%) saturate(778%) hue-rotate(162deg) brightness(95%) contrast(90%);
+}
+
+.footer .foot-container .secondarea {
+  -webkit-box-flex: 0.25;
+      -ms-flex: 0.25;
+          flex: 0.25;
+}
+
+.footer .foot-container .secondarea h1 {
+  color: #ff612a;
+  margin-bottom: 1em;
+}
+
+.footer .foot-container .secondarea li {
+  margin-bottom: 0.4em;
+}
+
+.footer .foot-container .secondarea li a {
+  color: #969fa6;
+}
+
+.footer .foot-container .thirdarea {
+  -webkit-box-flex: 0.30;
+      -ms-flex: 0.30;
+          flex: 0.30;
+}
+
+.footer .foot-container .thirdarea h1 {
+  color: #ff612a;
+  margin-bottom: 1em;
+}
+
+.footer .foot-container .thirdarea .innerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 1em;
+}
+
+.footer .foot-container .thirdarea .innerBox .contact-icn {
+  margin: 0;
+  height: 2em;
+  width: 2em;
+}
+
+.footer .foot-container .thirdarea .innerBox .contact-icn i {
+  color: #3ec4f5bb;
+}
+
+.footer .foot-container .thirdarea .innerBox p {
+  color: #969fa6;
+}
+
+@media only screen and (max-width: 800px) {
+  .foot-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .foot-container .firstarea {
+    margin-bottom: 3em;
+  }
+  .foot-container .secondarea {
+    margin-bottom: 3em;
+  }
+}
+
 .copyrights {
   height: 80px;
   width: 100%;
