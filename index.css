@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Poppins&family=Roboto&display=swap");
 *, ::after, ::before {
   margin: 0;
   padding: 0;
@@ -81,7 +82,7 @@ img {
   color: #ffffffcb;
 }
 
-.header .header__right ul li:hover {
+.header .header__right ul a:hover {
   border-bottom: 1px solid white;
   padding-bottom: 3px;
   margin-right: 5px;
@@ -369,6 +370,65 @@ img {
   }
 }
 
+.about {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e5eb;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about .container-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.about .container-about .img-box {
+  -webkit-box-flex: 0.40;
+      -ms-flex: 0.40;
+          flex: 0.40;
+  max-width: 600px;
+}
+
+.about .container-about .ab-desc {
+  -webkit-box-flex: 0.40;
+      -ms-flex: 0.40;
+          flex: 0.40;
+}
+
+.about .container-about .ab-desc h1 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.about .container-about .ab-desc p {
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-about .img-box {
+    padding: 5%;
+  }
+  .container-about .ab-desc {
+    padding: 5%;
+  }
+}
+
 .contact {
   height: 100%;
   min-width: 100%;
@@ -524,7 +584,7 @@ img {
 
 .contact .contact-container .contact__Right .inputBox input:focus ~ span, .contact .contact-container .contact__Right .inputBox textarea:focus ~ span,
 .contact .contact-container .contact__Right .inputBox input:valid ~ span, .contact .contact-container .contact__Right .inputBox textarea:valid ~ span {
-  color: hotpink;
+  color: #ff612a;
   font-size: 13px;
   -webkit-transform: translate(-6px, -30px);
           transform: translate(-6px, -30px);
